@@ -1,0 +1,45 @@
+.mui-bar-nav {
+  background: yellow; }
+
+.mui-bar-nav ~ .mui-content {
+  background: #fff; }
+
+.select-box {
+  display: flex;
+  align-items: center;
+  padding: 10px; }
+  .select-box input {
+    margin-bottom: 0;
+    text-align: right;
+    border: none; }
+  .select-box span {
+    padding: 6px;
+    background: yellow;
+    border-radius: 50%;
+    margin-right: 10px; }
+
+.mui-slider ul {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap; }
+  .mui-slider ul li {
+    width: 20%;
+    text-align: center; }
+    .mui-slider ul li span {
+      padding: 6px;
+      border-radius: 50%;
+      background: yellow;
+      margin: 10px 0; }
+
+.save-btn {
+  width: 80%;
+  margin: 0 auto;
+  height: 40px;
+  border-radius: 20px;
+  background: yellow;
+  color: #fff;
+  border: none;
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%); }
